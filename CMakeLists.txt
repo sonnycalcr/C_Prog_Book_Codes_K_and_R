@@ -10,6 +10,7 @@ set(CMAKE_RUNTIME_OUTPUT_DIRECTORY ${CMAKE_BINARY_DIR}/bin)
 include_directories("./includes/")
 
 # set source file path
-string(CONCAT c_file "${CMAKE_SOURCE_DIR}/" "src/ch01/ch1-1-1.c")
+# string(CONCAT c_file "${CMAKE_SOURCE_DIR}/" "./src/ch01/prob-1-17.c")
+set(c_file "./src/ch01/prob-1-24.c")
 # compile source file to binary executable file
 add_executable(linuxcdemo "${c_file}")

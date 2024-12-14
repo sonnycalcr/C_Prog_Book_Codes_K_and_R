@@ -11,6 +11,13 @@ include_directories("./includes/")
 
 # set source file path
 # string(CONCAT c_file "${CMAKE_SOURCE_DIR}/" "./src/ch01/prob-1-17.c")
-set(c_file "src/ch01/ch1-10-1.c")
+# set(c_file "src/ch01/ch1-10-1.c")
 # compile source file to binary executable file
-add_executable(linuxcdemo "${c_file}")
+# add_executable(linuxcdemo "${c_file}")
+
+set(MY_EXECUTABLE_NAME "linuxcdemo")
+
+add_executable(
+  ${MY_EXECUTABLE_NAME}
+  "src/ch01/ch1-10-1.c"
+)

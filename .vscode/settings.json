@@ -12,5 +12,7 @@
   },
   "C_Cpp.formatting": "clangFormat",
   "cmake.generator": "Unix Makefiles",
-  "C_Cpp.default.compilerPath": "/usr/bin/gcc"
+  "C_Cpp.default.compilerPath": "/usr/bin/gcc",
+  // do not include headers automatically
+  "clangd.arguments": ["-header-insertion=never"],
 }

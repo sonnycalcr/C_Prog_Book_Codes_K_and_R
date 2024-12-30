@@ -2,7 +2,7 @@
 
 This is a codes repo for C Programming Language by K&R.
 
-I use the tool chains below快
+I use the tool chains below,
 
 - CMake
 - Fish

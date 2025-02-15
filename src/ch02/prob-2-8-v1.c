@@ -13,6 +13,20 @@ unsigned rightrot(unsigned x, int n) {
     return x;
 }
 
+unsigned rightrot_v2(unsigned x, int n) {
+    int wordlength(void);
+    unsigned rbits;
+
+    if ((n - n % wordlength()) > 0) {
+        rbits = ~(~0 << n) & x; /* n rightmost bits of x */
+                                /* n rightmost bits to left */
+        rbits = rbits << (wordlength() - n);
+        x = x >> n;    /* x shifted n positions right */
+        x = x | rbits; /* rotation completed */
+    }
+    return x;
+}
+
 int main() {
     /*
         x = 0b0000_0000_0000_0000_0000_0000_0011_0111 // 55
@@ -22,7 +36,9 @@ int main() {
     unsigned x = 55;
     int n = 3;
     unsigned res = rightrot(x, n);
+    unsigned res_v2 = rightrot_v2(x, n);
     printf("%u\n", res);
+    printf("%u\n", res_v2);
     return 0;
 }
 
@@ -33,6 +49,5 @@ int wordlength(void) {
 
     for (i = 1; (v = v >> 1) > 0; i++)
         ;
-    printf("word length: %d\n", i);
     return i;
 }

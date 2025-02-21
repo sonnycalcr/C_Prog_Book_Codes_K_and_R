@@ -23,7 +23,7 @@
   },
   "Void Simple Template": {
     "scope": "c,cpp",
-    "prefix": "stm",
+    "prefix": "stma",
     "body": [
       "#include <stdio.h>",
       "",

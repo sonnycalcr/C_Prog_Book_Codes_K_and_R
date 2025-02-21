@@ -5,10 +5,9 @@
 void unescape(char s[], char t[]) {
     int i, j;
 
-    for (i = j = 0; t[i] != '\0'; i++) {
-        if (t[i] != '\\')
-            s[j++] = t[i]; /* it is not a backslash */
-        else
+    for (i = j = 0; t[i] != '\0'; i++)
+        switch (t[i]) {
+        case '\\':
             switch (t[++i]) {
             case 'n': /* real newline */
                 s[j++] = '\n';
@@ -18,10 +17,14 @@ void unescape(char s[], char t[]) {
                 break;
             default: /* all other chars */
                 s[j++] = '\\';
-                s[j++] = t[i + 1];
+                s[j++] = t[i];
                 break;
             }
-    }
+            break;
+        default:
+            s[j++] = t[i]; /* not a backslash */
+            break;
+        }
     s[j] = '\0';
 }
 

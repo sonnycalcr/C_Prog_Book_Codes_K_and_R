@@ -3,7 +3,6 @@
  */
 #include <stdio.h>
 #include <string.h>
-#include <limits.h>
 
 /* reverse: reverse string s in place */
 void reverse(char s[]) {

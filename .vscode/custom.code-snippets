@@ -1,9 +1,33 @@
 {
-  "Main Function": {
+  "Void Main Function": {
     "scope": "c,cpp",
     "prefix": "main",
     "body": [
-      "int main(int argc, char *argv[]) {",
+      "int main() {", //
+      "    $0",
+      "    return 0;",
+      "}"
+    ],
+    "description": "Insert a C++ main function"
+  },
+  "Main Function": {
+    "scope": "c,cpp",
+    "prefix": "maina",
+    "body": [
+      "int main(int argc, char *argv[]) {", //
+      "    $0",
+      "    return 0;",
+      "}"
+    ],
+    "description": "Insert a C++ main function"
+  },
+  "Void Simple Template": {
+    "scope": "c,cpp",
+    "prefix": "stm",
+    "body": [
+      "#include <stdio.h>",
+      "",
+      "int main() {",
       "    $0",
       "    return 0;",
       "}"

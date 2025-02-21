@@ -9,7 +9,7 @@ int bitcount(unsigned x) {
     return b;
 }
 
-int main(int argc, char *argv[]) {
+int main() {
     unsigned x = 55;       // 0b0011_0111
     int res = bitcount(x); // 5
     printf("x has %d bits that are set to 1.\n", res);

@@ -10,7 +10,7 @@ void my_strcat(char s[], char t[]) {
         ;
 }
 
-int main(int argc, char *argv[]) {
+int main() {
     char str1[100] = "Hello, "; // predefined string s
     char str2[] = "world!";     // predefined string t
 

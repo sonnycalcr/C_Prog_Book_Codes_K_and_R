@@ -13,7 +13,7 @@ void squeeze(char s1[], char s2[]) {
     s1[k] = '\0';
 }
 
-int main(int argc, char *argv[]) {
+int main() {
     char s1[] = "what is your name?";
     char s2[] = "my name is fanyfull.";
     printf("original s1: %s \n", s1);

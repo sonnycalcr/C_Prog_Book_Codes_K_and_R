@@ -5,7 +5,7 @@
 enum loop { NO, YES };
 enum loop okloop = YES;
 
-int main(int argc, char *argv[]) {
+int main() {
     int i = 0;
     int c;
     char s[MAXLINE];

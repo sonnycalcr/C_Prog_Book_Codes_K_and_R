@@ -9,7 +9,7 @@ void squeeze(char s[], int c) {
     s[j] = '\0';
 }
 
-int main(int argc, char *argv[]) {
+int main() {
     char str[] = "hello, world!"; // predefined string
     char charToRemove = 'o';      // character to remove
 

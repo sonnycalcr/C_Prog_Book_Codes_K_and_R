@@ -1,7 +1,7 @@
 #include <stdio.h>
 
 /* determine ranges of types */
-int main(int argc, char *argv[]) {
+int main() {
     /* signed types */
     /* 0 default type is int, usually has 32 bits, but things would be a little bit different when it comes to ~0 */
     printf("signed char min = %d\n", -(char)((unsigned char)~0 >> 1) - 1);

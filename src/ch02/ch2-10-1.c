@@ -9,7 +9,7 @@ int bitcount(unsigned x) {
     return b;
 }
 
-int main(int argc, char *argv[]) {
+int main() {
     unsigned x = 12;
 
     // call bitcount function and store the result

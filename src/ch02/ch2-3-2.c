@@ -15,7 +15,7 @@ int my_strlen(char s[]) {
     return i;
 }
 
-int main(int argc, char *argv[]) {
+int main() {
     char s[] = "I am a string";
     char s2[] = "";
     char s3[] = "hello,"

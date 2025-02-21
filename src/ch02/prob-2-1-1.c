@@ -2,7 +2,7 @@
 #include <limits.h>
 
 /* determine ranges of types */
-int main(int argc, char *argv[]) {
+int main() {
     /* signed types */
     printf("signed char min = %d\n", SCHAR_MIN);
     printf("signed char max = %d\n", SCHAR_MAX);

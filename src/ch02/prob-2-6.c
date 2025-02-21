@@ -14,7 +14,7 @@ unsigned setbits(unsigned x, int p, int n, unsigned y) {
     return x & ~(~(~0 << n) << (p + 1 - n)) | (y & ~(~0 << n)) << (p + 1 - n);
 }
 
-int main(int argc, char *argv[]) {
+int main() {
     // 将 x 中从第 5 位开始的 3 个二进制位设置成 y 中的最右边的 3 位的值，x 的其余各位保持不变
     // x: 288: 1,0010,0000
     // y: 263: 1,0000,0111

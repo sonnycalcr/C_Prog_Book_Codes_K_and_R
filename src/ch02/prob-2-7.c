@@ -12,7 +12,7 @@ unsigned invert(unsigned x, int p, int n) {
     return x ^ ((~(~0 << n)) << (p + 1 - n));
 }
 
-int main(int argc, char *argv[]) {
+int main() {
     // x: 288: 1,0010,0000
     // p: 5
     // n: 3

@@ -11,7 +11,7 @@ int any(char s1[], char s2[]) {
     return -1;                  /* otherwise, no match */
 }
 
-int main(int argc, char *argv[]) {
+int main() {
     char s1[] = "what is your name?";
     char s2[] = "my name is fanyfull.";
     int res = any(s1, s2);

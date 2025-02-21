@@ -18,7 +18,7 @@ int binsearch(int x, int v[], int n) {
     return -1; /* no match */
 }
 
-int main(int argc, char *argv[]) {
+int main() {
     int x = 12;
     int v[8] = {1, 5, 8, 12, 16, 33, 34, 55};
     int n = 8;

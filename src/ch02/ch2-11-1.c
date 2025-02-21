@@ -1,6 +1,6 @@
 #include <stdio.h>
 
-int main(int argc, char *argv[]) {
+int main() {
     int i = 0;
     int n = 12;
     int a[12] = {1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12};

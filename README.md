@@ -1,28 +1,42 @@
-# About
+# C Programming Language Book Example and Exercse Codes
 
 This is a codes repo for C Programming Language by K&R.
 
-I use the tool chains below,
+## Run Codes in Linux
 
-- CMake
-- Fish
-- Neovim
-- clangd
+Compiler and Run one specific code that specified in CMakeLists.txt,
 
-Notice that, you should replace the line in the `.clangd` file below to your own include path of this project,
-
-```
-"-I/home/sonnycalcr/EDisk/CCodes/C_Prog_Book_Codes/includes", # you should replace this to your own include path of this project
+```shell
+./scripts/llaunch.sh
 ```
 
-Besides, after cloning this repo to your local device, you need to execute an additional command,
+Compiler only,
 
-```sh
-chmod +x *.sh
+```shell
+./scripts/lcompile.sh
 ```
 
-Moreover, if you use VSCode, do not forget to change "program" name in .vscode/launch.jsonc to your own binary program name.
+If you have already compiled, then you can run it directly,
 
-Then, have fun reading this classic book and writting C codes in Linux.
+```shell
+./scripts/lrun.sh
+```
 
+## Run Codes in Window
+
+**Notice:** not thoroughly tested in Windows, so if you encounter some problems, feel free to open an issue in this Repo.
+
+Similar to Linux, use the following scripts,
+
+```powershell
+.\scripts\llaunch.ps1
+```
+
+```powershell
+.\scripts\lcompile.ps1
+```
+
+```powershell
+.\scripts\lrun.ps1
+```
 

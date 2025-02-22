@@ -13,5 +13,5 @@ set(MY_EXECUTABLE_NAME "cbookdemo")
 
 add_executable(
   ${MY_EXECUTABLE_NAME}
-  "src/ch03/prob-3-6.c"
+  "drafts/ch04/ch4-6-1.c"
 )

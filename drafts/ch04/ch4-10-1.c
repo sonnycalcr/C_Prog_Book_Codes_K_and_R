@@ -10,7 +10,6 @@ void simpleRecurse() {
     int currentX = x;
     printf("x = %d\n", x);
     simpleRecurse();
-    printf("simpleRecurse %d finished\n", currentX);
 }
 
 void f() {}

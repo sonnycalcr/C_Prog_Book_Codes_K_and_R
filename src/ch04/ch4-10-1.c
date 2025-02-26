@@ -1,4 +1,5 @@
 #include <stdio.h>
+
 /* printd:  print n in decimal */
 void printd(int n) {
     if (n < 0) {
@@ -11,6 +12,6 @@ void printd(int n) {
 }
 
 int main() {
-    
+    printd(123);
     return 0;
 }

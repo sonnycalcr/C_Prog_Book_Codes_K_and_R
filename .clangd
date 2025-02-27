@@ -1,6 +1,6 @@
 CompileFlags:
   Add: [
-    "-std=c99",
+    # "-std=c99",
     # "-I/home/sonnycalcr/EDisk/TemplateCodes/LinuxCTemplate/includes", # you should replace this to your own include path of this project
     # -Wno-unused-value,
   ] # ignore some specific warnings

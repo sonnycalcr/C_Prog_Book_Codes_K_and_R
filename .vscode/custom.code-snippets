@@ -1,7 +1,7 @@
 {
   "Void Main Function": {
     "scope": "c,cpp",
-    "prefix": "main",
+    "prefix": "maina",
     "body": [
       "int main() {", //
       "    $0",
@@ -12,7 +12,7 @@
   },
   "Main Function": {
     "scope": "c,cpp",
-    "prefix": "maina",
+    "prefix": "main",
     "body": [
       "int main(int argc, char *argv[]) {", //
       "    $0",

@@ -13,5 +13,5 @@ set(MY_EXECUTABLE_NAME "cbookdemo")
 
 add_executable(
   ${MY_EXECUTABLE_NAME}
-  "src/ch04/ch4-11-2-1.c"
+  "drafts/ch04/recursive-demo.c"
 )

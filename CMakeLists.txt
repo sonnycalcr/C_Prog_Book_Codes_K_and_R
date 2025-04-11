@@ -6,6 +6,10 @@ set(CMAKE_CXX_STANDARD C99)
 set(CMAKE_C_STANDARD_REQUIRED True)
 set(CMAKE_CXX_STANDARD 17)
 set(CMAKE_CXX_STANDARD_REQUIRED ON)
+
+# Only work with Unix/Ninja
+set(CMAKE_EXPORT_COMPILE_COMMANDS ON)
+
 # set output executable file directory
 set(CMAKE_RUNTIME_OUTPUT_DIRECTORY ${CMAKE_BINARY_DIR}/bin)
 
@@ -15,5 +19,5 @@ set(MY_EXECUTABLE_NAME "cbookdemo")
 
 add_executable(
   ${MY_EXECUTABLE_NAME}
-  "drafts/ch05/getch_demo.c"
+  "src/ch05/p96_1.c"
 )

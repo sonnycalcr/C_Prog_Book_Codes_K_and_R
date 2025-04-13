@@ -15,7 +15,7 @@ Compiler and Run one specific code that specified in CMakeLists.txt,
 ./scripts/llaunch.sh
 ```
 
-Compiler only,
+Compile only,
 
 ```shell
 ./scripts/lcompile.sh

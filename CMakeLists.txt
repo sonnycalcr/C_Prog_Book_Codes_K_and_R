@@ -19,5 +19,5 @@ set(MY_EXECUTABLE_NAME "cbookdemo")
 
 add_executable(
   ${MY_EXECUTABLE_NAME}
-  "src/ch05/p103_1.cpp"
+  "src/ch05/p106_1.c"
 )

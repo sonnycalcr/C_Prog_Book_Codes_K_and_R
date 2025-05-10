@@ -2,6 +2,11 @@
 
 This is a codes repo for C Programming Language by K&R.
 
+## How the codes are structured
+
+- Chapter1 to Chapter4: use sections to order the code files.
+- From Chapter5 to end: use pages(not book page, but pdf page number) to order the codes.
+
 ## Run Codes in Linux
 
 Compiler and Run one specific code that specified in CMakeLists.txt,
@@ -10,7 +15,7 @@ Compiler and Run one specific code that specified in CMakeLists.txt,
 ./scripts/llaunch.sh
 ```
 
-Compiler only,
+Compile only,
 
 ```shell
 ./scripts/lcompile.sh
@@ -39,4 +44,3 @@ Similar to Linux, use the following scripts,
 ```powershell
 .\scripts\lrun.ps1
 ```
-

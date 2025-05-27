@@ -19,5 +19,5 @@ set(MY_EXECUTABLE_NAME "cbookdemo")
 
 add_executable(
   ${MY_EXECUTABLE_NAME}
-  "drafts/ch06/demo01.c"
+  "drafts/ch06/demo02.c"
 )
